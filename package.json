@@ -1,10 +1,10 @@
 {
   "name": "bower-amd-paths",
   "version": "1.0.0",
-  "description": "Populates \"paths\" for AMD (RequireJS) config with all installed Bower components",
-  "main": "index.js",
+  "description": "Populates \"paths\" for AMD (RequireJS) config with installed Bower components",
+  "main": "lib",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "./node_modules/.bin/mocha"
   },
   "repository": {
     "type": "git",
@@ -12,7 +12,7 @@
   },
   "keywords": [
     "bower",
-    "requirejs",
+    "RequireJS",
     "AMD",
     "rjs"
   ],
@@ -21,5 +21,12 @@
   "bugs": {
     "url": "https://github.com/gkoychev/bower-amd-paths/issues"
   },
-  "homepage": "https://github.com/gkoychev/bower-amd-paths"
+  "homepage": "https://github.com/gkoychev/bower-amd-paths",
+  "dependencies": {
+    "bower-config": "^0.5.2",
+    "bower-json": "^0.4.0",
+    "jsonfile": "^2.0.0",
+    "main-bower-files": "gkoychev/main-bower-files",
+    "mocha": "^2.0.1"
+  }
 }
