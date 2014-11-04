@@ -1,0 +1,25 @@
+{
+  "name": "bower-amd-paths",
+  "version": "1.0.0",
+  "description": "Populates \"paths\" for AMD (RequireJS) config with all installed Bower components",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gkoychev/bower-amd-paths"
+  },
+  "keywords": [
+    "bower",
+    "requirejs",
+    "AMD",
+    "rjs"
+  ],
+  "author": "Georgy Koychev",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gkoychev/bower-amd-paths/issues"
+  },
+  "homepage": "https://github.com/gkoychev/bower-amd-paths"
+}
