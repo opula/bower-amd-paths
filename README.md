@@ -1,4 +1,4 @@
-bower-amd-paths
+bower-amd-paths [![Build Status](https://travis-ci.org/gkoychev/bower-amd-paths.svg)](https://travis-ci.org/gkoychev/bower-amd-paths)
 ===============
 
 > Populates "paths" for AMD (RequireJS) config with installed Bower components
@@ -15,7 +15,15 @@ $ npm install --save bower-amd-paths
 var bowerAmdPaths = require('bower-amd-paths');
 ```
 
-> this will return something similar to this:
+if you have the following in your .bowerrc
+```js
+{
+  "cwd": "webapp",
+  "directory": "vendor"
+}
+```
+
+this will return something similar to this:
 
 ```js
    { jquery: 'webapp/vendor/jquery/dist/jquery',
