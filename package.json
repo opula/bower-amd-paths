@@ -23,10 +23,9 @@
   },
   "homepage": "https://github.com/gkoychev/bower-amd-paths",
   "dependencies": {
+    "async": "^0.9.0",
     "bower-config": "^0.5.2",
-    "bower-json": "^0.4.0",
     "jsonfile": "^2.0.0",
-    "main-bower-files": "gkoychev/main-bower-files",
     "mocha": "^2.0.1"
   }
 }
