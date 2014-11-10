@@ -34,3 +34,35 @@ this will return something similar to this:
      backbone: 'webapp/vendor/backbone-amd/backbone' }
    }
 ```
+
+## API
+
+```js
+var bowerAmdPaths = require('bower-amd-paths')
+```
+
+### bowerAmdPaths([options], callback)
+
+#### options.cwd
+Type: `String`
+
+This is a base Bower directory, or directory where .bowerrc is located
+
+```js
+bowerAmdPaths({cwd: './application'}, function(err, result){
+    ...
+});
+```
+
+#### callback
+Type: `Function`
+
+```js
+bowerAmdPaths(function(err, result){
+    ...
+});
+```
+
+> **err** - error
+> **results** - array with paths
+
