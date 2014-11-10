@@ -1,6 +1,6 @@
 {
   "name": "bower-amd-paths",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Populates \"paths\" for AMD (RequireJS) config with installed Bower components",
   "main": "lib",
   "scripts": {
