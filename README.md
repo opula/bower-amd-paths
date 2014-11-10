@@ -46,7 +46,7 @@ var bowerAmdPaths = require('bower-amd-paths')
 #### options.cwd
 Type: `String`
 
-This is a base Bower directory, or directory where .bowerrc is located
+This should be base Bower directory, or directory where .bowerrc is located
 
 ```js
 bowerAmdPaths({cwd: './application'}, function(err, result){
@@ -63,6 +63,7 @@ bowerAmdPaths(function(err, result){
 });
 ```
 
-> **err** - error
-> **results** - array with paths
+**err** - error or null
+
+**results** - array with paths
 
