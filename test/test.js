@@ -17,6 +17,14 @@ describe('main-bower-files', function() {
         });
     });
 
+    it('empty options should not throw error', function (done) {
+        var expected = {};
+        bowerAmdPaths({}, function(err, actual){
+            if (err) throw err;
+            actual.should.eql(expected);
+            done();
+        });
+    });
 
     it('backbone-amd should return backbone.js', function (done) {
         var expected = {
